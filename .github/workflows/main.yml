@@ -38,5 +38,5 @@ jobs:
           push: true
           tags: |
             denisontalk/kube-news:latest
-            denisontalk/kube-news:${{github.run_number}}
+            denisontalk/kube-news:v${{github.run_number}}
             
